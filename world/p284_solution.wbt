@@ -1,0 +1,1603 @@
+#VRML_SIM R2023b utf8
+
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/appearances/protos/DryMud.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/backgrounds/protos/TexturedBackground.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/backgrounds/protos/TexturedBackgroundLight.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/floors/protos/Floor.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/buildings/protos/BungalowStyleHouse.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/appearances/protos/Parquetry.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/trees/protos/PalmTree.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/garden/protos/PicketFence.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/garden/protos/Gnome.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/garden/protos/Barbecue.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/garden/protos/DogHouse.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/humans/pedestrian/protos/Pedestrian.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/animals/protos/Dog.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/street_furniture/protos/Bench.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/animals/protos/Cat.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/trees/protos/Oak.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/garden/protos/TableWithUmbrella.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/vehicles/protos/bmw/BmwX5.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/vehicles/protos/range_rover/RangeRoverSportSVRSimple.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/garden/protos/Pergolas.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/garden/protos/Slide.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/garden/protos/SwingCouch.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/trees/protos/SimpleTree.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/lights/protos/FloorLight.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/lights/protos/CeilingLight.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/lights/protos/DoubleFluorescentLamp.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/street_furniture/protos/Fence.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/road/protos/Crossroad.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/buildings/protos/ComposedHouse.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/buildings/protos/Barn.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/animals/protos/Cow.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/obstacles/protos/OilBarrel.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/chairs/protos/WoodenChair.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/factory/conveyors/protos/ConveyorBelt.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/plants/protos/PottedTree.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/buildings/protos/FastFoodRestaurant.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/stairs/protos/StraightStairs.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/stairs/protos/StraightStairsLanding.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/stairs/protos/StraightStairsRail.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/kitchen/components/protos/Sink.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/chairs/protos/Chair.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/buildings/protos/LargeResidentialTower.proto"
+
+WorldInfo {
+}
+Viewpoint {
+  orientation -0.2901560849588592 -0.7755357715648755 0.5606725545134346 5.106314399127776
+  position -20.821713683797 41.90185313630475 81.64832873085909
+}
+TexturedBackground {
+}
+TexturedBackgroundLight {
+}
+Robot {
+  translation 7.574858413618285 -2.6365542953301713 3.2935364204083344
+  rotation 0.0002601231032788266 -0.0015450911989936546 -0.9999987725138256 -1.560043351288444
+  children [
+    DEF body Shape {
+      appearance HammeredCopper {
+      }
+      geometry Box {
+        size 0.6 0.5 0.2
+      }
+    }
+    DistanceSensor {
+      translation -0.35 -0.14 0
+      rotation 0 0 1 -2.5
+      children [
+        DEF ds Shape {
+          appearance ReflectiveSurface {
+          }
+          geometry Box {
+            size 0.05 0.05 0.05
+          }
+        }
+      ]
+      name "ds1"
+      boundingObject USE ds
+      physics Physics {
+        mass 1
+      }
+      translationStep 0.11
+      lookupTable [
+        0 0 0
+        1 1000 0
+      ]
+      aperture 1.5715
+    }
+    DistanceSensor {
+      translation -0.35 0.15 0
+      rotation 0 0 1 2.6763956132800115
+      children [
+        DEF ds2 Shape {
+          appearance ReflectiveSurface {
+          }
+          geometry Box {
+            size 0.05 0.05 0.05
+          }
+        }
+      ]
+      name "ds2"
+      boundingObject USE ds2
+      physics Physics {
+        mass 1
+      }
+      lookupTable [
+        0 0 0
+        1 1000 0
+      ]
+    }
+    Solid {
+      translation 0.03 0 0.19
+      children [
+        DEF panel Shape {
+          appearance SolarCell {
+          }
+          geometry Box {
+            size 0.6 0.5 0.01
+          }
+        }
+        Solid {
+          translation 0.25 -0.19 -0.05
+          children [
+            Shape {
+              appearance Copper {
+              }
+              geometry Cylinder {
+                height 0.1
+                radius 0.02
+              }
+            }
+          ]
+          name "solar_panel_support1"
+        }
+        Solid {
+          translation 0.25 0.19 -0.05
+          children [
+            Shape {
+              appearance Copper {
+              }
+              geometry Cylinder {
+                height 0.1
+                radius 0.02
+              }
+            }
+          ]
+          name "solar_panel_support2"
+        }
+        Solid {
+          translation -0.25 0.19 -0.05
+          children [
+            Shape {
+              appearance Copper {
+              }
+              geometry Cylinder {
+                height 0.1
+                radius 0.02
+              }
+            }
+          ]
+          name "solar_panel_support3"
+        }
+        Solid {
+          translation -0.25 -0.19 -0.05
+          children [
+            Shape {
+              appearance Copper {
+              }
+              geometry Cylinder {
+                height 0.1
+                radius 0.02
+              }
+            }
+          ]
+          name "solar_panel_support4"
+        }
+      ]
+      name "solar_panel"
+    }
+    Solid {
+      translation -0.18 -0.24 0
+      children [
+        Solid {
+          translation -0.00017766252744422228 -0.017340268664742475 0.05993637531167906
+          rotation -0.9999999929357695 8.124469320562993e-05 -8.676267159571073e-05 1.5708626067521982
+          children [
+            DEF cylinder1 Shape {
+              appearance DamascusSteel {
+              }
+              geometry Cylinder {
+                height 0.09
+                radius 0.02
+              }
+            }
+            Solid {
+              translation 0 0 -0.05
+              children [
+                DEF sphere1 Shape {
+                  appearance BrushedSteel {
+                  }
+                  geometry Sphere {
+                    radius 0.02
+                  }
+                }
+                Solid {
+                  translation 0 0.1 1.79608e-07
+                  rotation -1 0 0 -1.5707953071795862
+                  children [
+                    DEF cylinder2 Shape {
+                      appearance BrushedSteel {
+                      }
+                      geometry Cylinder {
+                        height 0.2
+                        radius 0.02
+                      }
+                    }
+                    Solid {
+                      translation 0 0 -0.11
+                      children [
+                        DEF sphere1 Shape {
+                          appearance BrushedSteel {
+                          }
+                          geometry Sphere {
+                            radius 0.02
+                          }
+                        }
+                        Solid {
+                          translation 0 -0.03 -9.99999e-08
+                          rotation 1 0 0 1.5708
+                          children [
+                            DEF cylinder3 Shape {
+                              appearance BrushedSteel {
+                              }
+                              geometry Cylinder {
+                                height 0.06
+                                radius 0.02
+                              }
+                            }
+                            HingeJoint {
+                              jointParameters HingeJointParameters {
+                                position 999.9178204994043
+                                axis 0 0 1
+                                anchor -9.51224e-05 0.00113507 0.0800056
+                              }
+                              device [
+                                RotationalMotor {
+                                  name "wheel1_left"
+                                }
+                              ]
+                              endPoint Solid {
+                                translation 0.0032759931646143734 -0.0016896209685189152 0.08025466217220512
+                                rotation 5.690143858871576e-05 -8.564482505261538e-06 0.999999998344438 0.9032240247656311
+                                children [
+                                  DEF wheel Shape {
+                                    appearance DamascusSteel {
+                                    }
+                                    geometry Cylinder {
+                                      height 0.15
+                                      radius 0.15
+                                    }
+                                  }
+                                ]
+                                boundingObject USE wheel
+                                physics Physics {
+                                  mass 1
+                                }
+                                linearVelocity -2.8097672979868564e-07 -1.9391460812952752e-05 -4.821240480146812e-05
+                                angularVelocity 0.000133075136903638 -1.4512713899421292e-06 -3.1059561207116846e-07
+                              }
+                            }
+                          ]
+                          boundingObject USE cylinder3
+                          physics DEF phy1 Physics {
+                            mass 1
+                          }
+                        }
+                      ]
+                      name "solid(1)"
+                      boundingObject USE sphere1
+                      physics USE phy1
+                    }
+                  ]
+                  boundingObject USE cylinder2
+                  physics USE phy1
+                }
+              ]
+              boundingObject USE sphere1
+              physics USE phy1
+            }
+          ]
+          boundingObject USE cylinder1
+          physics USE phy1
+        }
+      ]
+      name "wheel1_left_system"
+      physics DEF phy1 Physics {
+        mass 1
+      }
+    }
+    Solid {
+      translation 0.18 -0.24 0
+      children [
+        Solid {
+          translation -0.0001757815149209252 -0.017333744024692788 0.0600545153188472
+          rotation -0.9999999930027248 7.374603208071159e-05 -9.249904417794078e-05 1.5708786387286822
+          children [
+            DEF cylinder1 Shape {
+              appearance DamascusSteel {
+              }
+              geometry Cylinder {
+                height 0.09
+                radius 0.02
+              }
+            }
+            Solid {
+              translation 0 0 -0.05
+              children [
+                DEF sphere1 Shape {
+                  appearance BrushedSteel {
+                  }
+                  geometry Sphere {
+                    radius 0.02
+                  }
+                }
+                Solid {
+                  translation 0 0.1 1.79608e-07
+                  rotation -1 0 0 -1.5707953071795862
+                  children [
+                    DEF cylinder2 Shape {
+                      appearance BrushedSteel {
+                      }
+                      geometry Cylinder {
+                        height 0.2
+                        radius 0.02
+                      }
+                    }
+                    Solid {
+                      translation 0 0 -0.11
+                      children [
+                        DEF sphere1 Shape {
+                          appearance BrushedSteel {
+                          }
+                          geometry Sphere {
+                            radius 0.02
+                          }
+                        }
+                        Solid {
+                          translation 0 -0.03 -9.99999e-08
+                          rotation 1 0 0 1.5708
+                          children [
+                            DEF cylinder3 Shape {
+                              appearance BrushedSteel {
+                              }
+                              geometry Cylinder {
+                                height 0.06
+                                radius 0.02
+                              }
+                            }
+                            HingeJoint {
+                              jointParameters HingeJointParameters {
+                                position 610.6553182006664
+                                axis 0 0 1
+                                anchor 0.000341778 0.000558794 0.0800055
+                              }
+                              device [
+                                RotationalMotor {
+                                  name "wheel2_left"
+                                }
+                              ]
+                              endPoint Solid {
+                                translation 0.00127267678982122 0.0025389101112019215 0.08011783335442502
+                                rotation 1.750986807391775e-05 -1.4087684469491874e-05 -0.9999999997474708 5.086096482749702
+                                children [
+                                  DEF wheel Shape {
+                                    appearance DamascusSteel {
+                                    }
+                                    geometry Cylinder {
+                                      height 0.15
+                                      radius 0.15
+                                    }
+                                  }
+                                ]
+                                boundingObject USE wheel
+                                physics Physics {
+                                  mass 1
+                                }
+                                linearVelocity -1.759267627858231e-07 -2.003966948471166e-05 -2.5519117486143267e-06
+                                angularVelocity 0.00013067777962753478 -1.4255218126894023e-06 -3.0761909028992914e-07
+                              }
+                            }
+                          ]
+                          boundingObject USE cylinder3
+                          physics DEF phy1 Physics {
+                            mass 1
+                          }
+                        }
+                      ]
+                      name "solid(1)"
+                      boundingObject USE sphere1
+                      physics USE phy1
+                    }
+                  ]
+                  boundingObject USE cylinder2
+                  physics USE phy1
+                }
+              ]
+              boundingObject USE sphere1
+              physics USE phy1
+            }
+          ]
+          boundingObject USE cylinder1
+          physics USE phy1
+        }
+      ]
+      name "wheel2_left_system"
+      physics USE phy1
+    }
+    Solid {
+      translation -0.18 0.24 0
+      children [
+        Solid {
+          translation -0.000177663 0.0173403 0.0599364
+          rotation -0.9999999929357695 8.124469320562993e-05 -8.676267159571073e-05 1.5708626067521982
+          children [
+            DEF cylinder1 Shape {
+              appearance DamascusSteel {
+              }
+              geometry Cylinder {
+                height 0.09
+                radius 0.02
+              }
+            }
+            Solid {
+              translation 0 0 0.05
+              children [
+                DEF sphere1 Shape {
+                  appearance BrushedSteel {
+                  }
+                  geometry Sphere {
+                    radius 0.02
+                  }
+                }
+                Solid {
+                  translation 0 0.1 1.79608e-07
+                  rotation -1 0 0 -1.5707953071795862
+                  children [
+                    DEF cylinder2 Shape {
+                      appearance BrushedSteel {
+                      }
+                      geometry Cylinder {
+                        height 0.2
+                        radius 0.02
+                      }
+                    }
+                    Solid {
+                      translation 0 0 -0.11
+                      children [
+                        DEF sphere1 Shape {
+                          appearance BrushedSteel {
+                          }
+                          geometry Sphere {
+                            radius 0.02
+                          }
+                        }
+                        Solid {
+                          translation 0 0.03 -9.99999e-08
+                          rotation 1 0 0 1.5708
+                          children [
+                            DEF cylinder3 Shape {
+                              appearance BrushedSteel {
+                              }
+                              geometry Cylinder {
+                                height 0.06
+                                radius 0.02
+                              }
+                            }
+                            HingeJoint {
+                              jointParameters HingeJointParameters {
+                                position 1135.728979442309
+                                axis 0 0 1
+                                anchor 0.00237208 0.000614304 -0.0799754
+                              }
+                              device [
+                                RotationalMotor {
+                                  name "wheel1_right"
+                                }
+                              ]
+                              endPoint Solid {
+                                translation -0.0004047029492213962 -0.0020728178641323336 -0.07968181228804738
+                                rotation 0.004068659205410443 -0.9999917228601767 -1.49467786769549e-05 3.141625707816247
+                                children [
+                                  DEF wheel Shape {
+                                    appearance DamascusSteel {
+                                    }
+                                    geometry Cylinder {
+                                      height 0.15
+                                      radius 0.15
+                                    }
+                                  }
+                                ]
+                                boundingObject USE wheel
+                                physics Physics {
+                                  mass 1
+                                }
+                                linearVelocity -2.475874829496024e-07 -1.9141928046498396e-05 -4.86961212988823e-05
+                                angularVelocity 0.00012771551299446785 -1.3976314801632468e-06 -3.0408932004108564e-07
+                              }
+                            }
+                          ]
+                          boundingObject USE cylinder3
+                          physics DEF phy1 Physics {
+                            mass 1
+                          }
+                        }
+                      ]
+                      name "solid(1)"
+                      boundingObject USE sphere1
+                      physics USE phy1
+                    }
+                  ]
+                  boundingObject USE cylinder2
+                  physics USE phy1
+                }
+              ]
+              boundingObject USE sphere1
+              physics USE phy1
+            }
+          ]
+          boundingObject USE cylinder1
+          physics USE phy1
+        }
+      ]
+      name "wheel1_right_system"
+      physics DEF phy1 Physics {
+        mass 1
+      }
+    }
+    Solid {
+      translation 0.18 0.24 0
+      children [
+        Solid {
+          translation -0.000177663 0.0173403 0.0599364
+          rotation -0.9999999929357695 8.124469320562993e-05 -8.676267159571073e-05 1.5708626067521982
+          children [
+            DEF cylinder1 Shape {
+              appearance DamascusSteel {
+              }
+              geometry Cylinder {
+                height 0.09
+                radius 0.02
+              }
+            }
+            Solid {
+              translation 0 0 0.05
+              children [
+                DEF sphere1 Shape {
+                  appearance BrushedSteel {
+                  }
+                  geometry Sphere {
+                    radius 0.02
+                  }
+                }
+                Solid {
+                  translation 0 0.1 1.79608e-07
+                  rotation -1 0 0 -1.5707953071795862
+                  children [
+                    DEF cylinder2 Shape {
+                      appearance BrushedSteel {
+                      }
+                      geometry Cylinder {
+                        height 0.2
+                        radius 0.02
+                      }
+                    }
+                    Solid {
+                      translation 0 0 -0.11
+                      children [
+                        DEF sphere1 Shape {
+                          appearance BrushedSteel {
+                          }
+                          geometry Sphere {
+                            radius 0.02
+                          }
+                        }
+                        Solid {
+                          translation 0 0.03 -9.99999e-08
+                          rotation 1 0 0 1.5708
+                          children [
+                            DEF cylinder3 Shape {
+                              appearance BrushedSteel {
+                              }
+                              geometry Cylinder {
+                                height 0.06
+                                radius 0.02
+                              }
+                            }
+                            HingeJoint {
+                              jointParameters HingeJointParameters {
+                                position 1114.6796331025223
+                                axis 0 0 1
+                                anchor 0.00237208 0.000614304 -0.0799754
+                              }
+                              device [
+                                RotationalMotor {
+                                  name "wheel2_right"
+                                }
+                              ]
+                              endPoint Solid {
+                                translation 0.0058957396520888695 0.0008928389026862812 -0.07989721110794079
+                                rotation 0.8893069150608264 0.4573108469275196 -1.036490522307057e-05 3.141618620053468
+                                children [
+                                  DEF wheel Shape {
+                                    appearance DamascusSteel {
+                                    }
+                                    geometry Cylinder {
+                                      height 0.15
+                                      radius 0.15
+                                    }
+                                  }
+                                ]
+                                boundingObject USE wheel
+                                physics Physics {
+                                  mass 1
+                                }
+                                linearVelocity -1.5124844819173903e-07 -1.9802628455580014e-05 -1.967554488677597e-06
+                                angularVelocity 0.00013210888633926666 -1.4442339354572058e-06 -3.094845175679292e-07
+                              }
+                            }
+                          ]
+                          boundingObject USE cylinder3
+                          physics DEF phy1 Physics {
+                            mass 1
+                          }
+                        }
+                      ]
+                      name "solid(1)"
+                      boundingObject USE sphere1
+                      physics USE phy1
+                    }
+                  ]
+                  boundingObject USE cylinder2
+                  physics USE phy1
+                }
+              ]
+              boundingObject USE sphere1
+              physics USE phy1
+            }
+          ]
+          boundingObject USE cylinder1
+          physics USE phy1
+        }
+      ]
+      name "wheel2_right_system"
+      physics DEF phy1 Physics {
+        mass 1
+      }
+    }
+    Solid {
+      translation -0.3 0 0.4
+      children [
+        DEF camStand Shape {
+          appearance Copper {
+          }
+          geometry Cylinder {
+            height 0.6
+            radius 0.02
+          }
+        }
+        SliderJoint {
+          jointParameters JointParameters {
+            position 0.2557112458491048
+            minStop -0.3
+            maxStop 0.3
+            dampingConstant 1
+            staticFriction 3
+          }
+          device [
+            LinearMotor {
+              name "cam_slider"
+            }
+          ]
+          endPoint Solid {
+            translation -6.991036030701281e-05 -2.0368606140408474e-05 0.2556877128749164
+            rotation -3.2119124103390876e-05 -3.0250311188698434e-07 0.9999999994841353 -3.141585088015478
+            children [
+              DEF box1 Shape {
+                appearance RoughPolymer {
+                }
+                geometry Box {
+                  size 0.05 0.05 0.05
+                }
+              }
+              Camera {
+              }
+            ]
+            boundingObject USE box1
+            physics USE phy1
+            linearVelocity 1.9369997714470517e-06 -0.00011972617486859225 0.002562940123867803
+            angularVelocity 0.00013039270793787546 -1.423225162145773e-06 -3.055055606639045e-07
+          }
+        }
+      ]
+      name "camStand"
+      boundingObject USE camStand
+      physics USE phy1
+    }
+  ]
+  boundingObject USE body
+  physics DEF phy Physics {
+    mass 1
+  }
+  controller "robo_controller"
+  linearVelocity -4.142136653373356e-07 -3.681679790969836e-05 -3.080346558993239e-05
+  angularVelocity 0.000130098436266174 -1.4208402616621003e-06 -3.0512918150559066e-07
+}
+DEF forest Solid {
+  translation -1.23721 0.558605 2.87
+  rotation 0 0 -1 0.7853949999999997
+  children [
+    ComposedHouse {
+      translation -10.791 14.4099 0
+      rotation 0 0 1 -0.785395307179586
+    }
+    Pedestrian {
+      translation 6.25799 27.4854 1.27
+      rotation 0 0 1 -2.3561953071795863
+      name "pedestrian(1)"
+      shirtColor 0.333333 0 1
+      pantsColor 0.333333 0 0
+      shoesColor 1 0.333333 1
+      skinColor 0.666667 0 0
+    }
+    Bench {
+      translation 6.30741 28.2979 0
+      rotation 0 0 1 -2.3561953071795863
+    }
+    Dog {
+      translation 13.5346 29.841 0
+      rotation 0 0 1 -2.3561953071795863
+    }
+    Pedestrian {
+      translation 5.4096 28.1937 1.34
+      rotation 0 0 1 -2.3561953071795863
+    }
+    Barbecue {
+      translation -0.30417000000000716 32.35039999999997 -0.002002830121065724
+      rotation -1.892548373059777e-22 7.773858924822985e-23 -1 0.7853953071795868
+      enablePhysics TRUE
+    }
+    Gnome {
+      translation 9.26317 22.6778 0.44
+      rotation 0 0 -1 -2.3561953071795863
+    }
+    PicketFence {
+      translation -3.61314 30.1727 0
+      rotation 0 0 1 0.785398
+      numberOfSegments 9
+    }
+    PalmTree {
+      translation 10.655 32.7624 0
+      rotation 0 0 1 -0.785395307179586
+    }
+    PalmTree {
+      translation 5.69834 37.7182 0
+      rotation 0 0 1 -0.785395307179586
+      name "palm tree(1)"
+    }
+    PalmTree {
+      translation 8.13781 35.2792 0
+      rotation 2.31519e-08 -9.58979e-09 1 -0.785395307179586
+      name "palm tree(2)"
+    }
+    Floor {
+      translation 7 30 0
+      rotation 0 0 1 0.7853996938995746
+      size 15 15
+      appearance Parquetry {
+        type "light strip"
+        colorOverride 0.54902 0.360784 0.188235
+      }
+    }
+    BungalowStyleHouse {
+      translation 18.2635 18.2639 0
+      rotation 0 0 1 2.3562
+    }
+  ]
+  immersionProperties [
+    ImmersionProperties {
+    }
+  ]
+  boundingObject Box {
+    size 0.1 0.1 0.1
+  }
+  locked TRUE
+}
+StraightStairsRail {
+  translation 10.1905 -9.68761 4.33057
+  rotation -0.29746993184652304 -0.1885889567922948 -0.9359197855709745 1.79942
+}
+StraightStairsRail {
+  translation 11.5989 -9.76018 4.1119
+  rotation -0.29746993184652304 -0.1885889567922948 -0.9359197855709745 1.79942
+  name "straight stairs rail(3)"
+}
+StraightStairsRail {
+  translation 10.295 -10.9153 6.05865
+  rotation -0.29746993184652304 -0.1885889567922948 -0.9359197855709745 1.79942
+  name "straight stairs rail(1)"
+}
+StraightStairsRail {
+  translation 11.569 -11.1535 5.96353
+  rotation -0.29746993184652304 -0.1885889567922948 -0.9359197855709745 1.79942
+  name "straight stairs rail(2)"
+}
+Pergolas {
+  translation 24 -16.44 3
+}
+Pergolas {
+  translation 24 -20.8 3
+  name "pergola(1)"
+}
+TableWithUmbrella {
+  translation 25.44 12.99 3.19
+}
+Oak {
+  translation 20.29 21.26 2.72
+  rotation 1 0 0 4.692820414042842e-06
+}
+Oak {
+  translation 20.29 18.53 2.72
+  rotation 1 0 0 4.692820414042842e-06
+  name "oak tree(1)"
+}
+Oak {
+  translation 20.29 13.23 2.71999
+  rotation 1 0 0 4.692820414042842e-06
+  name "oak tree(2)"
+}
+Cat {
+  translation 29.39 14.46 2.81
+  rotation 0 0 1 3.14159
+  scale 3
+}
+Floor {
+  translation 0 0 2.5
+  size 63 50
+  appearance Parquetry {
+    type "dark strip"
+  }
+}
+FloorLight {
+  translation 0 -14.04 7.84
+}
+FloorLight {
+  translation 0 -21.09 7.84
+  name "floor light(33)"
+}
+FloorLight {
+  translation 13.22 -21.56 7.84
+  name "floor light(34)"
+}
+FloorLight {
+  translation 13.22 -13.85 7.84
+  name "floor light(35)"
+}
+Sink {
+  translation -0.36 -17.8 9.3
+}
+PicketFence {
+  translation 13.71 -12.66 7.63
+  rotation 0 0 -1 1.5708
+  name "picket fence(6)"
+}
+DirectionalLight {
+  direction 14 8 14
+}
+PicketFence {
+  translation -10.73 13.54 2.66
+  name "picket fence(4)"
+}
+Pergolas {
+  translation -21.23 18.36 2.39
+  name "pergola(2)"
+}
+Pergolas {
+  translation -16.3 18.39 2.39
+  name "pergola(3)"
+}
+Barn {
+  translation -9.41 19.57 2.63
+  rotation 0 0 1 -1.5707953071795862
+}
+Solid {
+  translation 0.31002 -22.15 9.51
+  rotation -8.58832999988117e-07 5.189889999928191e-06 0.9999999999861637 1.5708
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0.462745 0.231373 0
+        metalness 0
+      }
+      geometry Cylinder {
+        height 6
+        radius 0.2
+      }
+    }
+  ]
+  name "solid(2)"
+}
+Solid {
+  translation 13.37 -22.15 9.50999
+  rotation -8.58832999988117e-07 5.189889999928191e-06 0.9999999999861637 1.5708
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0.462745 0.231373 0
+        metalness 0
+      }
+      geometry Cylinder {
+        height 6
+        radius 0.2
+      }
+    }
+  ]
+  name "solid(6)"
+}
+Solid {
+  translation 13.37 -13.29 9.50999
+  rotation -8.58832999988117e-07 5.189889999928191e-06 0.9999999999861637 1.5708
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0.462745 0.231373 0
+        metalness 0
+      }
+      geometry Cylinder {
+        height 6
+        radius 0.2
+      }
+    }
+  ]
+  name "solid(7)"
+}
+Solid {
+  translation 0.310005 -12.98 9.51
+  rotation -8.58832999988117e-07 5.189889999928191e-06 0.9999999999861637 1.5708
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0.462745 0.231373 0
+        metalness 0
+      }
+      geometry Cylinder {
+        height 6
+        radius 0.2
+      }
+    }
+  ]
+  name "solid(5)"
+}
+Solid {
+  translation -2.21 -15.91 3.11
+  rotation 2.18975e-07 3.69431e-07 -1 -1.5707953071795862
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0.462745 0.231373 0
+        metalness 0
+      }
+      geometry Box {
+        size 17 0.7 3
+      }
+    }
+  ]
+  name "solid(4)"
+}
+Solid {
+  translation -16.54 -7.18 3.11
+  rotation -2.94203e-07 -7.5228e-08 1 3.14159
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0.462745 0.231373 0
+        metalness 0
+      }
+      geometry Box {
+        size 17 0.7 3
+      }
+    }
+  ]
+  name "solid(3)"
+}
+Solid {
+  translation 15.3 -15.91 3.11
+  rotation 2.18975e-07 3.69431e-07 -1 -1.5707953071795862
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0.462745 0.231373 0
+        metalness 0
+      }
+      geometry Box {
+        size 17 0.7 3
+      }
+    }
+  ]
+  name "solid(9)"
+}
+Solid {
+  translation 6.87 -17.07 12.49
+  rotation 0.5773509358560258 0.577349935856137 0.577349935856137 2.09439
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0.462745 0.231373 0
+        metalness 0
+      }
+      geometry Box {
+        size 16 0.2 15
+      }
+    }
+  ]
+  name "solid(8)"
+}
+PicketFence {
+  translation 3.18 11.94 2.73
+  rotation 0 0 1 -1.5707953071795862
+  numberOfSegments 5
+}
+PicketFence {
+  translation -10.72 11.94 2.73
+  rotation 0 0 1 -1.5707953071795862
+  name "picket fence(3)"
+  numberOfSegments 9
+}
+PicketFence {
+  translation -5.37 23.94 2.73
+  rotation 0 0 1 1.01503e-06
+  name "picket fence(2)"
+  numberOfSegments 7
+}
+PicketFence {
+  translation 17.12 11.86 2.73
+  rotation 0 0 1 -1.5707953071795862
+  name "picket fence(1)"
+  numberOfSegments 6
+}
+Crossroad {
+  translation 5 3 0
+}
+Fence {
+  translation 18.26 -24.99 2.53
+}
+Fence {
+  translation 18.26 -20.48 2.53
+  name "fence(1)"
+}
+Fence {
+  translation 18.26 -15.81 2.53
+  name "fence(2)"
+}
+Fence {
+  translation 13.69 -12.72 7.60001
+  rotation 2.346409999993541e-06 1.125079999996903e-14 0.9999999999972473 3.14159
+  name "fence(2)"
+}
+Fence {
+  translation -0.3 -12.72 7.60001
+  rotation 2.346409999993541e-06 1.125079999996903e-14 0.9999999999972473 3.14159
+  name "fence(2)"
+}
+Fence {
+  translation 13.69 -22.63 7.60001
+  rotation 8.340347200291871e-09 -0.8697107080533842 0.49356183431995737 -5.307179586466759e-06
+  name "fence(2)"
+}
+Fence {
+  translation -0.29 -22.63 7.60003
+  rotation 8.340347200291871e-09 -0.8697107080533842 0.49356183431995737 -5.307179586466759e-06
+  name "fence(2)"
+}
+PicketFence {
+  translation -0.239954 -12.62 7.61
+  rotation 0 0 1 1.5708
+  name "picket fence(5)"
+  numberOfSegments 6
+}
+PicketFence {
+  translation -2.38997 -7.26 2.32
+  rotation 0 0 1 1.5708
+  name "picket fence(8)"
+  numberOfSegments 6
+}
+PicketFence {
+  translation 10.58 -7.26 2.32
+  rotation 0 0 1 1.5708
+  name "picket fence(9)"
+  numberOfSegments 3
+}
+PicketFence {
+  translation -0.069916 -22.52 7.61
+  rotation 0 0 1 1.5708
+  name "picket fence(7)"
+  numberOfSegments 8
+}
+Slide {
+  translation 26.11 -9.78 2.6
+  rotation 0 0 1 3.14159
+}
+Slide {
+  translation 26.11 -12.34 2.62
+  rotation 0 0 1 3.14159
+  name "slide(1)"
+}
+BmwX5 {
+  hidden position_0_0 1.0780363777141648e-08
+  hidden position2_0_0 -7.052465594980103e-06
+  hidden position_0_1 1.0858150359492416e-08
+  hidden position2_0_1 -1.4384823756031467e-06
+  hidden position_0_2 2.239978739194451
+  hidden position_0_3 2.2316855167133722
+  hidden rotation_1 5.390175591224999e-09 0.9999988317006818 -0.0015285932327098054 7.052453709514076e-06
+  hidden rotation_2 -5.428920519066733e-09 -0.9999715125183655 -0.007548122397800646 1.4385602934536255e-06
+  hidden rotation_3 0 -1 0 2.239978739194451
+  hidden rotation_4 0 1 0 2.2316855167133722
+  translation 22.609230032437754 -16.577228857934067 3.04400505915651
+  rotation 0.006485013991881186 -0.36588699517919593 0.9306366913851314 0.041490090279808815
+  name "vehicle(1)"
+}
+DEF Border Solid {
+  translation 0 0 3.9
+  children [
+    Solid {
+      translation 0.0007713109883586824 -25.20000160981998 -0.3702037057517571
+      rotation 0.0018811756939019998 -0.026154669312038276 0.9996561381050919 0.00013130493618558644
+      children [
+        DEF border Shape {
+          appearance DryMud {
+          }
+          geometry Box {
+            size 49 1 3
+          }
+        }
+      ]
+      name "border1"
+      boundingObject USE border
+      physics DEF phy1 Physics {
+        mass 1
+      }
+      linearVelocity -2.9868122339860446e-09 -1.2962109458003477e-10 -6.000034318276595e-10
+      angularVelocity -2.0594113337985745e-08 -1.1487365949966139e-08 2.2306921524323603e-09
+    }
+    Solid {
+      translation 1.2400000000000004 24.750000000000007 -0.3702666093899638
+      rotation -0.05506097500592774 -0.005114151826305828 -0.9984698966330904 1.0775221031993125e-81
+      children [
+        DEF border Shape {
+          appearance DryMud {
+          }
+          geometry Box {
+            size 52 1 3
+          }
+        }
+      ]
+      name "border2"
+      boundingObject USE border
+      physics USE phy1
+      linearVelocity 0 0 -1.1544898370631156e-13
+    }
+    Solid {
+      translation 32.57 2.58587e-05 -0.37
+      rotation 0 0 1 1.5708
+      children [
+        DEF border Shape {
+          appearance DryMud {
+          }
+          geometry Box {
+            size 49 1 3
+          }
+        }
+      ]
+      name "border3"
+      boundingObject USE border
+    }
+    Solid {
+      translation -25.277351071763064 15.68141658400241 -0.3685379416614034
+      rotation 5.12177996969909e-05 -9.596309943227372e-05 0.9999999940839104 1.5698153071795864
+      children [
+        DEF border Shape {
+          appearance DryMud {
+          }
+          geometry Box {
+            size 19 1 3
+          }
+        }
+      ]
+      name "border4"
+      boundingObject USE border
+      physics USE phy1
+      linearVelocity 0 0 -1.1544898370631156e-13
+    }
+    Solid {
+      translation -25.08507131098833 -16.03429839018034 -0.37434372902816726
+      rotation 2.1641982607961914e-05 -5.29280406539458e-05 0.9999999983651234 1.5798694888058833
+      children [
+        DEF border Shape {
+          appearance DryMud {
+          }
+          geometry Box {
+            size 19 1 3
+          }
+        }
+      ]
+      name "border4(1)"
+      boundingObject USE border
+      physics USE phy1
+      linearVelocity 2.9867946267370685e-09 1.2962109458003477e-10 5.997669632052248e-10
+      angularVelocity 1.5098740896515472e-08 -3.563084551520773e-09 2.8195873129109125e-08
+    }
+  ]
+  name "solid(1)"
+}
+DogHouse {
+  translation 30.08 12.07 2.9
+  rotation 1.125079999996903e-14 -2.346409999993541e-06 0.9999999999972473 3.14159
+}
+RangeRoverSportSVRSimple {
+  translation 22.87 -20.82 2.87
+  name "vehicle(2)"
+}
+Floor {
+  translation 25 -16 2.7
+  name "floor(1)"
+  size 14 18
+  appearance Parquetry {
+    type "light strip"
+    colorOverride 0.54902 0.360784 0.188235
+  }
+}
+Floor {
+  translation -18 18 2.7
+  name "floor(3)"
+  size 14 12
+  appearance Parquetry {
+    type "light strip"
+    colorOverride 0.54902 0.360784 0.188235
+  }
+}
+FastFoodRestaurant {
+  translation 6.6901 -17.56 2.61
+  rotation 0 0 1 1.5708
+  height 5
+  width 14
+}
+TableWithUmbrella {
+  translation 2.11 -19.96 7.61
+  name "table with umbrella(1)"
+}
+TableWithUmbrella {
+  translation 12 -19.96 7.61
+  rotation 0 1 0 4.692820414042842e-06
+  name "table with umbrella(2)"
+}
+TableWithUmbrella {
+  translation 7 -19.96 7.61001
+  rotation 0 1 0 4.692820414042842e-06
+  name "table with umbrella(4)"
+}
+TableWithUmbrella {
+  translation 6.89 -15.37 7.61001
+  rotation 0 1 0 4.692820414042842e-06
+  name "table with umbrella(5)"
+}
+TableWithUmbrella {
+  translation 2.01 -15.37 7.61002
+  rotation 0 1 0 4.692820414042842e-06
+  name "table with umbrella(6)"
+}
+TableWithUmbrella {
+  translation 12.17 -15.38 7.61
+  name "table with umbrella(3)"
+}
+ConveyorBelt {
+  hidden translation_1 0.012902304444757817 -6.857520782688198e-05 0.44962649853865155
+  hidden rotation_1 -3.402358185917483e-05 0.3534620029122165 0.9354488822697262 4.364220278222948e-05
+  translation -21.43 16.94 2.86
+  rotation 0 0 1 3.14159
+}
+ConveyorBelt {
+  hidden translation_1 0.027108695512016112 -6.803842316571718e-05 0.46371912951955174
+  hidden rotation_1 -1.5868115710153225e-05 -0.9999679718966721 0.00800343232989686 0.005114974190310736
+  translation -16.14 16.94 2.96
+  rotation 0 0 1 3.14159
+  name "conveyor belt(1)"
+}
+OilBarrel {
+  translation -24.42 13 3.28
+}
+OilBarrel {
+  translation -24.42 14.3 3.28
+  name "oil barrel(1)"
+}
+OilBarrel {
+  translation -24.42 15.78 3.28
+  name "oil barrel(2)"
+}
+Cow {
+  translation -22.56 18.71 2.64
+  rotation 0 0 1 -1.5707953071795862
+}
+Cow {
+  translation -20.62 18.73 2.64
+  rotation 0 0 1 -1.5707953071795862
+  name "cow(1)"
+}
+Cow {
+  translation -17.19 18.58 2.64
+  rotation 0 0 1 -1.5707953071795862
+  name "cow(2)"
+}
+Cow {
+  translation -15.37 18.58 2.64
+  rotation 0 0 1 -1.5707953071795862
+  name "cow(3)"
+}
+Floor {
+  translation 6 18 3
+  name "floor(2)"
+  size 23 12
+  appearance Parquetry {
+    colorOverride 0.54902 0.360784 0.188235
+  }
+}
+DoubleFluorescentLamp {
+  translation 24.18 -15.96 5.92
+}
+DoubleFluorescentLamp {
+  translation 24.18 -20.24 5.92
+  name "double fuorescent lamp(1)"
+}
+CeilingLight {
+  translation 24.12 -16.7 5.84
+}
+CeilingLight {
+  translation 24.12 -21.17 5.84
+  name "ceiling light(1)"
+}
+SwingCouch {
+  translation 29.84 -10.96 3.23
+  rotation 0 0 1 3.14159
+}
+SwingCouch {
+  translation 29.84 -18.26 3.23
+  rotation 0 0 1 3.14159
+  name "swing couch(1)"
+}
+SimpleTree {
+  translation 30 -15 3
+}
+SimpleTree {
+  translation 30 -22 3
+  name "tree(3)"
+}
+FloorLight {
+  translation 25.37 22.99 2.73
+  name "floor light(1)"
+}
+FloorLight {
+  translation 25.37 19.72 2.73
+  name "floor light(2)"
+}
+FloorLight {
+  translation 23.42 10.99 2.73
+  name "floor light(4)"
+}
+FloorLight {
+  translation 23.42 13.37 2.73
+  name "floor light(5)"
+}
+FloorLight {
+  translation 29.27 13.37 2.73
+  name "floor light(6)"
+}
+FloorLight {
+  translation 30.35 13.37 2.73
+  name "floor light(7)"
+}
+FloorLight {
+  translation 30.35 -8.99 2.73
+  name "floor light(8)"
+}
+FloorLight {
+  translation 30.35 -20.59 2.73
+  name "floor light(11)"
+}
+FloorLight {
+  translation 30.35 -24.32 2.73
+  name "floor light(12)"
+}
+FloorLight {
+  translation 25.59 -24.32 2.73
+  name "floor light(13)"
+}
+FloorLight {
+  translation 25.59 -13.33 2.73
+  name "floor light(14)"
+}
+FloorLight {
+  translation 16.83 12.94 2.73
+  name "floor light(18)"
+}
+FloorLight {
+  translation 13.48 12.94 2.73
+  name "floor light(19)"
+}
+FloorLight {
+  translation 5.26 18.25 2.73
+  name "floor light(24)"
+}
+FloorLight {
+  translation 1.36 16.09 2.73
+  name "floor light(25)"
+}
+FloorLight {
+  translation -4.47 19.84 2.73
+  name "floor light(26)"
+}
+FloorLight {
+  translation -4.47 16.83 2.73
+  name "floor light(27)"
+}
+FloorLight {
+  translation -4.47 13.73 2.73
+  name "floor light(28)"
+}
+FloorLight {
+  translation 1.21 12.54 2.73
+  name "floor light(29)"
+}
+FloorLight {
+  translation -24.48 23 2.73
+  name "floor light(32)"
+}
+FloorLight {
+  translation -15.1 23 2.73
+  name "floor light(36)"
+}
+FloorLight {
+  translation -14.59 16.09 2.73
+  name "floor light(37)"
+}
+FloorLight {
+  translation -14.26 12.92 2.73
+  name "floor light(40)"
+}
+FloorLight {
+  translation -18.82 16.09 2.73
+  name "floor light(38)"
+}
+FloorLight {
+  translation -23.2 16.09 2.73
+  name "floor light(39)"
+}
+FloorLight {
+  translation 7.51 12.54 2.73
+  name "floor light(30)"
+}
+FloorLight {
+  translation 11.15 12.54 2.73
+  name "floor light(31)"
+}
+FloorLight {
+  translation 15.8 22.91 2.73
+  name "floor light(20)"
+}
+FloorLight {
+  translation -4.36 22.91 2.73
+  name "floor light(21)"
+}
+FloorLight {
+  translation 10.65 22.91 2.73
+  name "floor light(22)"
+}
+FloorLight {
+  translation 5.53 23.34 2.73
+  name "floor light(23)"
+}
+FloorLight {
+  translation 25.59 -10.69 2.73
+  name "floor light(15)"
+}
+FloorLight {
+  translation 23.05 -10.69 2.73
+  name "floor light(16)"
+}
+FloorLight {
+  translation 23.05 -13.58 2.73
+  name "floor light(17)"
+}
+FloorLight {
+  translation 30.35 -16.67 2.73
+  name "floor light(9)"
+}
+FloorLight {
+  translation 30.35 -13.12 2.73
+  name "floor light(10)"
+}
+FloorLight {
+  translation 25.37 16.48 2.73
+  name "floor light(3)"
+}
+WoodenChair {
+  translation -23.67 13.59 3.1
+}
+WoodenChair {
+  translation -23.7 15.08 3.1
+  name "wooden chair(1)"
+}
+PottedTree {
+  translation -22.35 13.03 2.58
+}
+PottedTree {
+  translation -20.65 13.03 2.58
+  name "potted tree(1)"
+}
+PottedTree {
+  translation -18.69 13.03 2.58
+  name "potted tree(2)"
+}
+PottedTree {
+  translation -16.85 13.03 2.58
+  name "potted tree(3)"
+}
+StraightStairs {
+  translation 10.83 -8.40575 2.58
+  rotation 0.25056306820553154 0.25056206820525934 0.9351132545462786 -1.6378353071795866
+  nSteps 15
+}
+StraightStairsLanding {
+  translation 11.01 -12.51 2.63
+  rotation 0 0 1 -1.5707953071795862
+  height 5
+}
+Chair {
+  translation 12.26 -19.01 7.56
+  rotation 0 0 1 -1.5707953071795862
+}
+Chair {
+  translation 7.33 -19.01 7.56
+  rotation 0 0 1 -1.5707953071795862
+  name "chair(2)"
+}
+Chair {
+  translation 2.07 -19.01 7.56
+  rotation 0 0 1 -1.5707953071795862
+  name "chair(3)"
+}
+Chair {
+  translation 2.06 -14.3 7.56
+  rotation 0 0 1 -1.5707953071795862
+  name "chair(4)"
+}
+Barbecue {
+  translation 13.33 -17.46 7.74
+  rotation 0 0 1 3.14159
+}
+Chair {
+  translation 6.83 -14.3 7.56
+  rotation 0 0 1 -1.5707953071795862
+  name "chair(5)"
+}
+Chair {
+  translation 12.31 -14.3 7.56
+  rotation 0 0 1 -1.5707953071795862
+  name "chair(6)"
+}
+Chair {
+  translation 12.16 -16.57 7.56
+  rotation 0 0 1 1.5708
+  name "chair(7)"
+}
+Chair {
+  translation 12.04 -21.17 7.56
+  rotation 0 0 1 1.5708
+  name "chair(8)"
+}
+Chair {
+  translation 7.04 -21.17 7.56
+  rotation 0 0 1 1.5708
+  name "chair(9)"
+}
+Chair {
+  translation 2.19 -21.17 7.56
+  rotation 0 0 1 1.5708
+  name "chair(10)"
+}
+LargeResidentialTower {
+  translation -14.73 -13.97 2.82
+  rotation 0 0 -1 1.57079
+  groundSurroundingWall FALSE
+}
